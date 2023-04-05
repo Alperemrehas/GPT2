@@ -100,7 +100,7 @@ def preprocess(text):
     print(logits.shape)
     print(loss)
 
-    print("Done")
+    print("So far So Good")
 
     
 
@@ -115,7 +115,7 @@ def read_corpus():
     #print(("Length of the dataset in charachters: ", len(text) ))
     #print(text[:1000])
     #print(len(text))
-    n= int(0.1 * len(text))
+    n= int(0.01 * len(text))
     preprocess(text[:n])
 
 def main():
